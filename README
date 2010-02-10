@@ -1,0 +1,10 @@
+
+
+1. Adicionar na lista de aplicações
+
+2. Adicionar na URL
+
+urlpatterns += patterns('',
+    (r'^openid$', 'openid.views.index'),
+)
+
